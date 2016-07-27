@@ -3,10 +3,10 @@
 	height:200px;
 }
 .frase{
-	margin-top: 30px;
+	margin-top: 50px;
 }
 .barra{
-	margin-top: 30px;
+	margin-top: 50px;
 }
 .fa-search:before {
   content: "\f002";
@@ -19,6 +19,7 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 40px;
+	margin-top: -8px;
 	margin-right: -53px;
 	margin-left: -60px;
 	background-color: #DFB636;
@@ -35,14 +36,23 @@ button{
 	background-color: #383838;
 	border:2px solid green;
 	border-radius: 5px;
+	color: green;
+	margin: 10px 0px;
 	display: inline-block;
 }
 .article{
 	position: absolute;
-	top: 120px;
+	top: 150px;
 	left: 900px;
-	color: white;
+	color: #D1D1D1;
 	font-size: 25px;
+}
+h6{
+	display: inline-block;
+}
+.linea{
+	width: 300px;
+	border: 1px solid gray;
 }
 .boton {
 	width:140px;
@@ -51,15 +61,16 @@ button{
 	border-radius:10px;
 	border: 1px solid #BB7B29;
 	margin:20px 0px 20px;
-
+}
+.boton a{
+	color: white;
 }
 .container-imagenes {
 	margin-bottom:20px;
 	margin-top:20px;
-
 }
-
 .texto h3, p {
+	margin-top: 20px;
 	font-family:helvetica, sans serif;
  	color:gray;
 }
@@ -80,6 +91,11 @@ img {
 footer {
 	background-color:#E6E6E6;
 }
+a{
+	text-decoration: none;
+	color: gray;
+	margin-left: 15px;
+}
 
  footer p, h4 {
  	padding: 14px;
@@ -87,4 +103,5 @@ footer {
  	font-size:16px;
  	color:gray;
 }
+
 
