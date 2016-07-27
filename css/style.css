@@ -40,6 +40,26 @@ button{
 	margin: 10px 0px;
 	display: inline-block;
 }
+.trailer{
+	width:160px;
+	height:60px;
+	background-color:#DFB636;
+	border-radius:10px;
+	border: 1px solid #BB7B29;
+	margin:20px 0px 20px;
+	display: block;
+	color: white;
+}
+.trailer-2{
+	width:160px;
+	height:60px;
+	background-color:#BB7B29;
+	border-radius:10px;
+	border: 1px solid #BB7B29;
+	margin:20px 0px 20px;
+	display: block;
+	color:white;
+}
 .article{
 	position: absolute;
 	top: 150px;
@@ -47,6 +67,7 @@ button{
 	color: #D1D1D1;
 	font-size: 25px;
 }
+
 h6{
 	display: inline-block;
 }
