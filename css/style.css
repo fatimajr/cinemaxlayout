@@ -125,4 +125,7 @@ a{
  	color:gray;
 }
 
-
+.article p {
+	font-size:14px;
+	color:white;
+}
